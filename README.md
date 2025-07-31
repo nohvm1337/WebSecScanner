@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # WebSecScanner
 
 WebSecScanner is a simple command-line interface (CLI) tool designed to scan websites for basic security vulnerabilities. It analyzes HTTP headers, tests for basic Cross-Site Scripting (XSS) vulnerabilities, checks for HTTPS redirection and HTTP Strict Transport Security (HSTS), and generates a report listing any detected vulnerabilities.
@@ -40,3 +41,20 @@ Contributions are welcome! If you have suggestions for improvements or additiona
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+=======
+# 🛡️ WebSecScanner
+
+Petit outil de scan de sécurité web : détecte les failles courantes (XSS, headers mal configurés, absence de HTTPS...).
+
+## ⚙️ Fonctions principales
+- Analyse des headers HTTP
+- Détection XSS basique
+- Vérif HTTPS & redirections
+- Rapport simple généré
+
+## ▶️ Utilisation
+
+```bash
+python scanner.py --url https://exemple.com
+
+>>>>>>> 5cef76d5c7bf531f9097e09047d2914cce2a31eb
